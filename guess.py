@@ -4,7 +4,13 @@
 #if not right, tell him bigger or smaller
 
 import random
-r = random.randint(1, 100)
+
+start = input ('please give lower: ')
+end = input ('please give upper: ')
+start = int(start)
+end = int (end) 
+
+r = random.randint(start, end)
 count = 0  #想把猜幾次建出
 
 while True:
